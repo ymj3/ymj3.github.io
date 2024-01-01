@@ -115,7 +115,7 @@ body {
 .box:hover::after {
 	transform: skewX(0deg);
 	left: 20px;
-	width: calc(100%-90px);
+	width: calc(75%);
 }
 
 .box:nth-child(1)::before,
