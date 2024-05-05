@@ -1,40 +1,103 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ymj3的网站</title>
-    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciallo～(∠・ω< )⌒☆</title>
+            <!-- 引入字体图标 -->
+            <link rel="stylesheet" href="./font/iconfont.css">
+            <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="box">
-            <span></span>
-            <div class="content">
-                <h2>ONE</h2>
-                <p>主题班会的PPT</p>
-                <a href="./res/班会.pptx">下载PPT</a>
+
+    <nav class="shell close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="./res/images/head-image.jpg" alt="">
+                </span>
+                <div class="text logo-text">
+                    <span class="name">name</span>
+                    <span class="software">-bilibili-</span>
+                </div>
+            </div>
+            <i class="iconfont icon-xiangyoujiantou toggle"></i>
+        </header>
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class="iconfont icon-sousuo icon"></i>
+                    <input type="text" placeholder="搜索...">
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#HOME">
+                            <i class="iconfont icon-shouye icon"></i>
+                            <span class="text nac-text">主页</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="iconfont icon-shoucangxiao icon"></i>
+                            <span class="text nac-text">我的收藏</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="iconfont icon-lishi icon"></i>
+                            <span class="text nac-text">历史记录</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="iconfont icon-xiaoxi icon"></i>
+                            <span class="text nac-text">消息</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="iconfont icon-fensi icon"></i>
+                            <span class="text nac-text">粉丝管理</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="iconfont icon-chuangzuo icon"></i>
+                            <span class="text nac-text">创作中心</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-content">
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class="iconfont icon-rijian icon sun"></i>
+                        <i class="iconfont icon-yejian icon moon"></i>
+                    </div>
+                    <span class="mode-text text">夜间模式</span>
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
             </div>
         </div>
-        <div class="box">
-            <span></span>
-            <div class="content">
-                <h2>TWO</h2>
-                <p>主题班会的主持稿</p>
-                <a href="./res/班会主持稿.docx">点击下载主持稿</a>
-            </div>
-        </div>
-        <div class="box">
-            <span></span>
-            <div class="content">
-                <h2>Card three</h2>
-                <p>历史版本</p>
-                <a href="https://kkgithub.com/ymj3/ymj3.github.io/tree/main/res/history">点击查看历史版本</a>
-            </div>
-        </div>
+
+    </nav>
+    <div class="mainbody">
+        <section class="HOME" id="HOME">
+            <h1>Welcome</h1><br>
+            <p>欢迎来到我的主页</p>
+        </section>
+    </div>
 </body>
+
+<script type="text/javascript" src="./index.js"></script>
 
 </html>
