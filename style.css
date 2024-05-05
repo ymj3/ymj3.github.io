@@ -23,7 +23,8 @@ body {
 /* 主体显示盒 */
 .mainbody {
 	position: relative;
-	left: 88px;
+	left: 110px;
+	width: auto;
 }
 
 
