@@ -1,1 +1,2 @@
 res/download/apks/魔女的夜宴(汉化版).apk filter=lfs diff=lfs merge=lfs -text
+*.apk filter=lfs diff=lfs merge=lfs -text
